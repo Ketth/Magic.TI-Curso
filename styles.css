@@ -1,0 +1,97 @@
+body {
+    font-family: Didot, serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(18, 7, 31);
+}
+
+header {
+    background-color: #280333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    color: white;
+}
+
+nav a {
+    color: #ffffff;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #0f475a;
+}
+
+.module {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.module-slider {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.slider {
+    width: 70%;
+    margin: 20px auto;
+    position: relative;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+}
+
+.slick-prev,
+.slick-next {
+    font-size: 20px;
+    color: #7a67a5;
+    background-color: #635d7a;
+    border: 2px solid #534b6e;
+    border-radius: 5px;
+    padding: 8px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+    opacity: 1;
+    background-color: #586670;
+    color: #9e2424;
+}
+
+.slick-prev {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.slick-next {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+/* Para mudar a cor dos títulos dos módulos para branco */
+.module h2 {
+    color: #ffffff;
+}
+
+.module-button {
+    background-color:   rgb(58, 29, 78);
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
