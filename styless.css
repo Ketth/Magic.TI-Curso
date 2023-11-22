@@ -2,11 +2,11 @@ body {
   font-family: Didot, serif;
   margin: 0;
   padding: 0;
-  background-color: rgb(18, 7, 31);
+  background-color: #287ea7;
 }
 
 header {
-  background-color: #280333;
+  background-color: black;
   color: white;
   text-align: center;
   padding: 10px;
@@ -20,8 +20,8 @@ section {
 }
 
 .curso {
-  background-color: rgb(27, 10, 59); /* Ajuste o tom de azul conforme necessário */
-  border: 1px solid #e7e7e7;
+  background-color: #095274; /* Ajuste o tom de azul conforme necessário */
+  border: 1px solid #095274;
   border-radius: 8px;
   margin: 10px;
   padding: 20px;
@@ -52,8 +52,8 @@ section {
   display: block;
   margin: 10px auto;
   padding: 8px 16px;
-  background-color: #220c72c4;
-  color: rgb(146, 172, 166);
+  background-color: #287ba1;
+  color: rgb(0, 8, 7);
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -62,5 +62,5 @@ section {
 }
 
 .curso button:hover {
-  background-color: #2b0e7a;
+  background-color: #2d799c;
 }
